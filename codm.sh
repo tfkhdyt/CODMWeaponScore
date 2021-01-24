@@ -10,8 +10,8 @@ ws(){
   control=$7
 
   #proses
-  DPS=$(( $2 * $3 / 100  ))
-  acCMo=$(( ( $4 + $7 ) / 2 * $5 * $6 / 3 / 1000 ))
+  DPS=$(( $2 * $3 / 2 / 100  ))
+  acCMo=$(( ( $4 + $7 ) / 2 * $5 * $6 / 3 / 100 ))
   
   #output
   clear
@@ -21,7 +21,7 @@ ws(){
   echo "Accuracy     : $4 | Mobility     : $5"
   echo "Range        : $6 | Control      : $7"
   
-  echo -e "\nDPS          : $DPS | Ac/Mo/Ra/Co  : $acCMo"
+  echo -e "\nDPS          : $DP| Ac/Mo/Ra/Co  : $acCMo"
 
   echo -e "\nTotal score  : $(( ( $DPS + $acCMo ) / 2 ))"
   echo "-------------------------------------"
