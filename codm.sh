@@ -1,5 +1,5 @@
-#!/bin/bash
-ws{
+#!/bin/env bash
+ws(){
   #input
   namaSenjata=$1
   damage=$2
