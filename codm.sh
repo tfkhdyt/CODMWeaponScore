@@ -1,5 +1,6 @@
 #!/bin/env bash
 ws(){
+  clear
   #input
   namaSenjata=$1
   damage=$2
