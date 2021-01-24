@@ -21,7 +21,7 @@ ws(){
   echo "Accuracy     : $4 | Mobility     : $5"
   echo "Range        : $6 | Control      : $7"
   
-  echo -e "\nDPS          : $DP| Ac/Mo/Ra/Co  : $acCMo"
+  echo -e "\nDPS          : $DPS | Ac/Mo/Ra/Co  : $acCMo"
 
   echo -e "\nTotal score  : $(( ( $DPS + $acCMo ) / 2 ))"
   echo "-------------------------------------"
