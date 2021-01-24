@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/data/data/com.termux/files/usr/bin/bash
 ws(){
   #input
   namaSenjata=$1
