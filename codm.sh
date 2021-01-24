@@ -14,7 +14,6 @@ ws(){
   acCMo=$(( ( $4 + $7 ) / 2 * $5 * $6 / 3 / 100 ))
   
   #output
-  clear
   echo "-------------------------------------"
   echo "Nama Senjata : $1"
   echo -e "\nDamage       : $2 | Firerate     : $3"
