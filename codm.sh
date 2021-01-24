@@ -20,5 +20,5 @@ ws(){
   
   echo -e "\nDPS          : $DPS | Acc/Cont/Mob : $acCMo"
 
-  echo -e "\nTotal score  : $(( ( $DPS + $acCMo ) / 2 ))
+  echo -e "\nTotal score  : $(( ( $DPS + $acCMo ) / 2 ))"
 }
