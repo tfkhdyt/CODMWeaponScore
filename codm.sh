@@ -1,6 +1,5 @@
 #!/bin/env bash
 ws(){
-  clear
   #input
   namaSenjata=$1
   damage=$2
@@ -15,6 +14,7 @@ ws(){
   acCMo=$(( ( $4 + $7 ) / 2 * $5 * $6 / 3 / 1000 ))
   
   #output
+  clear
   echo "-------------------------------------"
   echo "Nama Senjata : $1"
   echo -e "\nDamage       : $2 | Firerate     : $3"
