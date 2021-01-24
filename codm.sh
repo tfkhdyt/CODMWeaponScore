@@ -24,5 +24,4 @@ ws(){
 
   echo -e "\nTotal score  : $(( ( $DPS + $acCMo ) / 2 ))"
   echo "-------------------------------------"
-  exit
 }
