@@ -14,7 +14,7 @@ ws(){
   
   #output
   echo "Nama Senjata : $1"
-  echo "Damage       : $2 | Firerate     : $3"
+  echo -e "\nDamage       : $2 | Firerate     : $3"
   echo "Accuracy     : $4 | Mobility     : $5"
   echo "Control      : $6"
   
