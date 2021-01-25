@@ -10,6 +10,26 @@ ws(){
     echo -e 'Contoh:\n  ws "DR-H OTM" 67 57 63 58 54 52'
     echo -e "\nUntuk membandingkan dua senjata sekaligus, gunakan perintah seperti berikut:"
     echo -e '  ws "SCAR 17" 67 57 75 62 54 53 && \ \n  ws "FR 5.56 Polos" 41 65 60 77 60 55 '
+    echo -e "\nUntuk meng-update script ini, ketikkan:"
+    echo -e '  ws -u '
+    echo -e "\nUntuk meng-uninstall script ini, ketikkan:"
+    echo -e '  ws -r '
+    return 1
+  elif [[ $1 == "-u" || $1 == "--update" ]]; then
+    cd ~/CODMWeaponScore && git pull
+    echo "Update selesai!"
+    sleep 5
+    $SHELL
+    return 1
+  elif [[ $1 == "-r" || $1 == "--remove" ]]; then
+    cd ~
+    sed -i '/codm/d' .zshrc
+    sed -i '/codm/d' ../usr/etc/bash.bashrc
+    rm -rf CODMWeaponScore
+    cd ~
+    echo "Uninstall selesai!"
+    sleep 5
+    $SHELL
     return 1
   fi
 
