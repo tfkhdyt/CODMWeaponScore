@@ -1,5 +1,5 @@
 # Call of Duty Mobile Weapon Score
-[![banner-codm-ws.jpg](https://i.postimg.cc/K8Q8Fprr/banner-codm-ws.jpg)](https://postimg.cc/MnMSmDLv)<br><br>
+[![banner-codm-ws.jpg](https://i.postimg.cc/K8Q8Fprr/banner-codm-ws.jpg)](https://postimg.cc/MnMSmDLv)<br>
 Skrip ini berfungsi untuk menghitung score dari senjata CODM.
 Cara kerjanya user memasukkan nama senjata, damage, fire rate, accuracy, dll. Kemudian program akan otomatis menghitung score performa dari senjata tersebut. Kalian pun dapat membandingkan dan menghitung score 2 senjata secara bersamaan.
 Dengan skrip ini kalian bisa menentukan build senjata mana yang terbaik<br>
