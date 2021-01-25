@@ -19,7 +19,6 @@ Dengan skrip ini kalian bisa menentukan build senjata mana yang terbaik<br><br>
 
 ## Instalasi
 ```Bash
-# cloning source code
 git clone https://github.com/tfkhdyt/CODMWeaponScore.git && cd CODMWeaponScore && ./install.sh
 ```
 ## Cara penggunaan
