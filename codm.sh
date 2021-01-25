@@ -43,17 +43,17 @@ ws(){
   control=$7
 
   #proses
-  DPS=$(( $2 * $3 * $6 / 1000 / 6  ))
+  DPS=$(( $2 * $3 * $6 / 1000  ))
   acCMo=$(( ( $4 + $7 ) / 2 * $5 / 100 ))
 
   #output
   echo "\n  ${bold}Nama Senjata : $1 ${normal}"
-  echo "+------------------------------------+"
-  echo "| Damage       : $damage | Fire rate : $fireRate |"
-  echo "| Accuracy     : $accuracy | Mobility  : $mobility |"
-  echo "| Range        : $range | Control   : $control |"
+  echo "+-------------------------------------+"
+  echo "| Damage       : $damage  | Fire rate : $fireRate |"
+  echo "| Accuracy     : $accuracy  | Mobility  : $mobility |"
+  echo "| Range        : $range  | Control   : $control |"
   echo "| DPS/Range    : $DPS | Ac/Mo/Co  : $acCMo |"
   echo "| Total score  : ${bold}$(( ( $DPS + $acCMo ) / 2 ))${normal}                  |"
-  echo "+------------------------------------+"
+  echo "+-------------------------------------+"
 }
 
