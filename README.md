@@ -1,5 +1,5 @@
-# Call of Duty Mobile Weapon Score 
-<img src="https://i.postimg.cc/sXzKhJ82/1610845994-picsay.jpg"/>
+# Call of Duty Mobile Weapon Score
+[![banner-codm-ws.jpg](https://i.postimg.cc/K8Q8Fprr/banner-codm-ws.jpg)](https://postimg.cc/MnMSmDLv)
 Skrip ini berfungsi untuk menghitung score dari senjata CODM.
 Cara kerjanya user memasukkan nama senjata, damage, fire rate, accuracy, dll. Kemudian program akan otomatis menghitung score performa dari senjata tersebut. Kalian pun dapat membandingkan dan menghitung score 2 senjata secara bersamaan.
 Dengan skrip ini kalian bisa menentukan build senjata mana yang terbaik<br><br>
@@ -36,6 +36,8 @@ ws "DR-H OTM" 67 57 63 58 54 52
 ws "SCAR 17" 67 57 75 62 54 53 && \
 ws "FR 5.56 Polos" 41 65 60 77 60 55
 
+# Ketik command berikut untuk membaca petunjuk penggunaan lagi
+ws -h
 ```
 
 ## Informasi lebih lanjut
