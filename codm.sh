@@ -27,11 +27,11 @@ ws(){
   acCMo=$(( ( $4 + $7 ) / 2 * $5 / 100 ))
 
   #output
-  echo "  ${bold}Nama Senjata : $1 ${normal}"
+  echo "\n  ${bold}Nama Senjata : $1 ${normal}"
   echo "+------------------------------------+"
-  echo "| Damage       : $2 | Firerate  : $3 |"
-  echo "| Accuracy     : $4 | Mobility  : $5 |"
-  echo "| Range        : $6 | Control   : $7 |"
+  echo "| Damage       : $damage | Fire rate : $fireRate |"
+  echo "| Accuracy     : $accuracy | Mobility  : $mobility |"
+  echo "| Range        : $range | Control   : $control |"
   echo "| DPS/Range    : $DPS | Ac/Mo/Co  : $acCMo |"
   echo "| Total score  : ${bold}$(( ( $DPS + $acCMo ) / 2 ))${normal}                  |"
   echo "+------------------------------------+"
