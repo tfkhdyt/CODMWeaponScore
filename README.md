@@ -39,6 +39,10 @@ ws "FR 5.56 Polos" 41 65 60 77 60 55
 # Ketik command berikut untuk membaca petunjuk penggunaan lagi
 ws -h
 ```
+## Screenshots
+<img src="https://i.postimg.cc/vZ6w2P2Z/Screenshot-2021-01-25-18-10-21-81.jpg" height="100" loading="lazy"/>
+<img src="https://i.postimg.cc/d0PPb8gm/Screenshot-2021-01-25-18-11-13-50-84d3000e3f4017145260f7618db1d683.jpg" height=100 loading="lazy"/>
+<img src="https://i.postimg.cc/XvfS4rbM/Screenshot-2021-01-25-18-11-35-99-84d3000e3f4017145260f7618db1d683.jpg" height=100 loading="lazy"/>
 
 ## Informasi lebih lanjut
 Apabila ada yang mau ditanyakan soal skrip ini, bisa langsung pm saya:
