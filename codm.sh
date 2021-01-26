@@ -43,17 +43,22 @@ ws(){
   control=$7
 
   #proses
-  DPS=$(( $2 * $3 * $6 / 10000  ))
-  acCMo=$(( ( $4 + $7 ) / 2 * $5 / 100 ))
+  DPS="scale=1; $2 * $3 * $6 / 10000"
+  DPSFloat=$(echo $DPS | bc)
+  acCMo="scale=1; ( $4 + $7 ) / 2 * $5 / 100"
+  acCMoFloat=$(echo $acCMo | bc)
+  total="scale=1; ( $DPSFloat + $acCMoFloat ) / 2"
+  totalFloat=$(echo $total | bc)
 
   #output
   echo "\n  ${bold}Nama Senjata : $1 ${normal}"
-  echo "+------------------------------------+"
-  echo "| Damage       : $damage | Fire rate : $fireRate |"
-  echo "| Accuracy     : $accuracy | Mobility  : $mobility |"
-  echo "| Range        : $range | Control   : $control |"
-  echo "| DPS/Range    : $DPS | Ac/Mo/Co  : $acCMo |"
-  echo "| Total score  : ${bold}$(( ( $DPS + $acCMo ) / 2 ))${normal}                  |"
-  echo "+------------------------------------+"
+  echo "+----------------------------------------+"
+  echo "| Damage       : $damage   | Fire rate : $fireRate   |"
+  echo "| Accuracy     : $accuracy   | Mobility  : $mobility   |"
+  echo "| Range        : $range   | Control   : $control   |"
+  echo "| DPS/Range    : $DPSFloat | Ac/Mo/Co  : $acCMoFloat |"
+  echo "| Total score  : $totalFloat                    |"
+  echo "+----------------------------------------+"
 }
 
+#tfkhdyt
