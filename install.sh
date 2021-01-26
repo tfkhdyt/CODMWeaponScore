@@ -1,5 +1,5 @@
 #!/bin/bash
-pkg install ncurses
+pkg install ncurses bc
 echo "source ~/CODMWeaponScore/codm.sh" >> ~/.zshrc
 echo "source ~/CODMWeaponScore/codm.sh" >> ~/../usr/etc/bash.bashrc
 clear
