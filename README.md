@@ -2,7 +2,7 @@
 [![banner-codm-ws.jpg](https://i.postimg.cc/K8Q8Fprr/banner-codm-ws.jpg)](https://postimg.cc/MnMSmDLv)<br>
 Skrip ini berfungsi untuk menghitung score dari senjata CODM.
 Cara kerjanya user memasukkan nama senjata, damage, fire rate, accuracy, dll. Kemudian program akan otomatis menghitung score performa dari senjata tersebut. Kalian pun dapat membandingkan dan menghitung score 2 senjata secara bersamaan.
-Dengan skrip ini kalian bisa menentukan build senjata mana yang terbaik<br>
+Dengan skrip ini kalian bisa menentukan build senjata mana yang terbaik<br><br>
 <p align=center>
 <img src="https://img.shields.io/badge/Created%20by-tfkhdyt-blue?style=for-the-badge&logo=github"/><br>
 <a href="Https://facebook.com/tfkhdyt142"><img height="30" src="https://www.pinclipart.com/picdir/big/2-21918_download-transparent-background-facebook-logo-clipart-facebook-logo.png"></a>&nbsp;
